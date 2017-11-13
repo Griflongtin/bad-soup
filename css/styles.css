@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+}
+body{
+  background-color: #f9f8f7;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  filter: invert(20%);
+  width: 150px;
+  height: auto;
+  float: left;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav {
+
+}
+.nav ul{
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+}
+.nav ul li{
+}
+
+header h1{
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #ccc;
+  font-size: 4em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #222;
+  font-size: 4em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.main-text{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  background-image: url(../img/soup-hero.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+.hero-triangle {
+  position: absolute;
+  left: 50%;
+  margin-left: -218px;
+  border-right: 200px solid #f9f8f7;
+  border-left: 200px solid #f9f8f7;
+  background: none;
+  height: 18px;
+}
+.arrow-holder{
+  position: absolute;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+
+}
+.arrow-left, .arrow-right{
+  width: 43%;
+  height: 18px;
+  background-color: rgb(249, 248, 247);
+}
+.arrow-left{
+  float: left;
+}
+.arrow-right{
+  float: right;
+}
+/*.arrow {
+  position: absolute;
+  left: 50%;
+  margin-left: -218px;
+}*/
+.hero-triangle img {
+  max-width: 36px;
+  width: 36px;
+  height: 18px;
+}
+
+
+.btn {
+  padding: 20px;
+  text-transform: uppercase;
+  background-color: #fcc;
+  border: 3px solid #d99;
+  border-radius: 5px;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero p {
+  font-family: 'Allura', cursive;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+  text-shadow: 2px 2px 2px red;
+  background-color: gray;
+  color: black;
+}
